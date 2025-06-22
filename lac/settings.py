@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 from pathlib import Path
 import os
 print("==== DEBUG: SECRET_KEY is:", os.getenv('SECRET_KEY'))
-
+print("==== DEBUG: TEST_VAR is:", os.getenv('TEST_VAR'))
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
